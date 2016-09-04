@@ -1,4 +1,4 @@
-var CLIENT_ID = '537919715943-0esd8scuapa7ass03d1v3r23hd1g7epe.apps.googleusercontent.com';
+var CLIENT_ID = window.CLIENT_ID;
 var SCOPES = ["https://www.googleapis.com/auth/contacts.readonly"];
 
 function checkAuth() {
