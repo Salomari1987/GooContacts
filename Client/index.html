@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+    <script src="node_modules/backbone/backbone.js"></script>
+    <script src="Models/SearchField.js"></script>
+    <script src="Models/ContactModel.js"></script>
+    <script src="Collections/Contacts.js"></script>
+    <script src="Models/AppModel.js"></script>
+
+    <script src="Views/ContactView.js"></script>
+    <script src="Views/ContactlistView.js"></script>
+    <script src="Views/ContactlistEntryView.js"></script>
+    <!-- <script src="Views/NavPanelView.js"></script> -->
+    <script src="Views/SearchView.js"></script>
+    <!-- <script src="Views/SearchButtonView.js"></script> -->
+    <!-- <script src="Views/SearchBoxView.js"></script> -->
+    <script src="Views/AppView.js"></script>
+    <script src="data/data.js"></script>
+    <script src="StarterLoad.js"></script>
+    <script src="Google_API.js"></script>
+
+</head>
+  <body>
+    <!-- Scripts may be placed anywhere on a page. But FYI, they block rendering of elements
+     below them until after the scripts load-->
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"> 
+    </script>
+    <div class="page-header">
+        <div class="jumbotron">
+           
+                <h1 id="pageHeader">
+                 <p class="text-center"> Manage Your Contacts 
+                    <small>
+                        <small>Today
+                        </small>
+                    </small>
+                     </p>
+                </h1>
+           
+        </div>        
+    </div>
+    <div id="authorize-div" style="display: none">
+      <span style="font-size:x-large; border:1px solid black; padding:20px; border-right:none">Press button to authorize app access to your Gmail account</span>
+      <!--Button for the user to click to initiate auth sequence -->
+      <button id="authorize-button" onclick="handleAuthClick(event)">
+        Log In
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "name": "goo-contacts",
+  "version": "1.0.0",
+  "description": "Manage google contacts in an effective multi featured way",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Salomari1987/rbk-mvp.git"
+  },
+  "keywords": [
+    "contacts",
+    "manager",
+    "search",
+    "profile",
+    "backbone",
+    "js",
+    "google",
+    "contacts",
+    "api"
+  ],
+  "author": "Salah Alomari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salomari1987/rbk-mvp/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.3",
+    "underscore": "~1.5.2",
+    "backbone": "~1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "2.3.3",
+    "sinon": "^1.17.3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
