@@ -1,0 +1,1 @@
+window.CLIENT_ID = 'Google People API Key';
