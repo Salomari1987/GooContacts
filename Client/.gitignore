@@ -11,6 +11,7 @@ iisnode.yml
 
 # API keys
 ./*API.js
+Google_API_KEY.js
 
 # Files that might appear on external disk
 .Spotlight-V100
