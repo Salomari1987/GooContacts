@@ -1,10 +1,10 @@
-var CLIENT_ID = window.CLIENT_ID;
+var ClientID = window.CLIENT_ID;
 var SCOPES = ["https://www.googleapis.com/auth/contacts.readonly"];
 
 function checkAuth() {
   gapi.auth.authorize(
     {
-      'client_id': CLIENT_ID,
+      'client_id': ClientID,
       'scope': SCOPES.join(' '),
       'immediate': true
     }, handleAuthResult);
