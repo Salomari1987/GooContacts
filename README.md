@@ -7,6 +7,7 @@ Web application to search and view google's contacts easily
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Tech Stack](#tech-stack)
+    1. [Linting](#linting)
     1. [Installing Dependencies](#installing-dependencies)
 
 
@@ -37,6 +38,11 @@ Web application to search and view google's contacts easily
 * Bootstrap
 * jQuery
 * underscore.js
+
+### Linting
+
+* run    ```npm run lint```
+
 
 ### Installing Dependencies
 
