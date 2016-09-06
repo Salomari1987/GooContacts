@@ -3,10 +3,10 @@ Web application to search and view google's contacts easily
 
 ## Table of Contents
 
-1. [Usage](#Usage)
+1. [Usage](#usage)
 1. [Requirements](#requirements)
 1. [Development](#development)
-    1. [Tech Stack](#Tech-Stack)
+    1. [Tech Stack](#tech-stack)
     1. [Installing Dependencies](#installing-dependencies)
 
 
