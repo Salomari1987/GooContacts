@@ -11,15 +11,15 @@ Web application to search and view google's contacts easily
 
 ## Usage
 
-> Clone project
-> Follow steps in https://support.google.com/googleapi/answer/6158849?hl=en&ref_topic=7013279
-> After creating new OAuth2.0 keys, copy the client Id and paste it in Google_API_KEY_Example.js replacing ('xxxxxxxxxxxxxxx.apps.googleusercontent.com')
-> Rename Google_API_KEY_Example.js to Google_API_KEY.js
-> From the Client Directory, do    ```npm install```
-> To start the application, from the Client directory, do    ```npm start```
-> Go to your web browser, and type 'localhost:8000'
-> Click Login
-> This will take you to gmail where you can insert your credentials
+* Clone project
+* Follow steps in https://support.google.com/googleapi/answer/6158849?hl=en&ref_topic=7013279
+* After creating new OAuth2.0 keys, copy the client Id and paste it in Google_API_KEY_Example.js replacing ('xxxxxxxxxxxxxxx.apps.googleusercontent.com')
+* Rename Google_API_KEY_Example.js to Google_API_KEY.js
+* From the Client Directory, do    ```npm install```
+* To start the application, from the Client directory, do    ```npm start```
+* Go to your web browser, and type 'localhost:8000'
+* Click Login
+* This will take you to gmail where you can insert your credentials
 
 ## Requirements
 
