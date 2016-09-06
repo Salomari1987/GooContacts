@@ -40,9 +40,11 @@ Web application to search and view google's contacts easily
 
 ### Installing Dependencies
 
+* Download python on your machine from https://www.python.org/downloads/
+* Or if from terminal you can do    ```brew install python```
+
 From within the root directory:
 
 ```sh
-sudo npm install -g bower
 npm install
 ```
