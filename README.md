@@ -9,6 +9,7 @@ Web application to search and view google's contacts easily
     1. [Tech Stack](#Tech-Stack)
     1. [Installing Dependencies](#installing-dependencies)
 
+
 ## Usage
 
 * Clone project
@@ -28,6 +29,7 @@ Web application to search and view google's contacts easily
 - python 2.x
 
 ## Development
+
 ### Tech Stack
 
 * Backbone
