@@ -4,7 +4,8 @@
   "description": "Manage google contacts in an effective multi featured way",
   "main": "index.js",
   "scripts": {
-    "start": "python -m SimpleHTTPServer 8000"
+    "start": "python -m SimpleHTTPServer 8000",
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -35,7 +36,11 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "2.3.3",
-    "sinon": "^1.17.3"
+    "sinon": "^1.17.3",
+    "eslint": "^3.2.2",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
   },
   "ignore": [
     "**/.*",

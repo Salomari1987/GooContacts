@@ -1,16 +1,16 @@
 //Navigation View
 var SearchView = Backbone.View.extend({
-  className: "input-group",
+  className: 'input-group',
   template: _.template('<input class=form-control id=searchbox style="float:left" type=text placeholder=insert ><span class=input-group-btn><button class=btn btn-default type=button id=reset>Reset</button></span></input>'),
 
   events: {
-    "change": function(e) {
+    'change': function(e) {
       this.model.entry(e);
-      $('#searchbox').empty()
+      $('#searchbox').empty();
       this.render();
     },
-    "click #reset": function(){
-      this.model.showall()
+    'click #reset': function() {
+      this.model.showall();
     }
 
   },
@@ -20,7 +20,7 @@ var SearchView = Backbone.View.extend({
 
   },
 
-  render: function(){
-    this.$el.append(this.$el.html(this.template))
+  render: function() {
+    this.$el.append(this.$el.html(this.template));
   }
-})
+});
