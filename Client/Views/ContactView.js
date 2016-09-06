@@ -1,8 +1,10 @@
 //ContactView
+//View of current selected contact in middle of screen
 var ContactView = Backbone.View.extend({
   className: 'col-md-8 contact',
   events: {
     'click': function() {
+      //If contact is clicked, clear screen
       this.$el.children().detach();
     }  
   },

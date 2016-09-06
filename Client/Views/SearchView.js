@@ -10,9 +10,9 @@ var SearchView = Backbone.View.extend({
       this.render();
     },
     'click #reset': function() {
+      //On clicking reset button, show all contacts
       this.model.showall();
     }
-
   },
 
   initialize: function() {
