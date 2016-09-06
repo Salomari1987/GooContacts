@@ -6,8 +6,8 @@ Web application to search and view google's contacts easily
 1. [Usage](#Usage)
 1. [Requirements](#requirements)
 1. [Development](#development)
+    1. [Tech Stack](#Tech-Stack)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
 
 ## Usage
 
